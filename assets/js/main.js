@@ -6,6 +6,11 @@
 
 (function ($) {
 
+
+	"use strict";
+
+
+
 	var $window = $(window),
 		// $body = $('body'),
 		$body = document.querySelector('body');
