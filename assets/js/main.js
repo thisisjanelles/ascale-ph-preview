@@ -128,7 +128,7 @@
 	// Play initial animations on page load.
 		$window.on('load', function() {
 			window.setTimeout(function() {
-				$body.removeClass('is-preload');
+				$(body).removeClass('is-preload');
 			}, 100);
 		});
 
@@ -407,7 +407,7 @@
 			});
 
 		// Events.
-			$body.on('click', function(event) {
+			$(body).on('click', function(event) {
 
 				// Article visible? Hide.
 					if ($body.hasClass('is-article-visible'))
